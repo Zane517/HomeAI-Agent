@@ -1,10 +1,11 @@
-# HomeAI-Agent
-HomeAI Agent：基于 MiMo-V2.5 的小米智能家居全模态管家
+# HomeAI Agent
+
 基于 **小米 MiMo-V2.5 系列模型** 的全模态智能家居管家中控系统。  
 将 MiMo 模型的视觉理解、智能体推理与语音合成能力，与米家 IoT 生态深度整合，  
 实现从“语音指令”到“主动理解”的智能家居体验升级。
 
 > 🚀 本项目正在申请 **Xiaomi MiMo Orbit 百万亿 Token 创造者激励计划**，  
+> 点击 [https://100t.xiaomimimo.com/](https://100t.xiaomimimo.com/) 了解活动详情。
 
 ---
 
@@ -20,15 +21,6 @@ HomeAI Agent：基于 MiMo-V2.5 的小米智能家居全模态管家
 ---
 
 ## 🧠 系统架构
-用户交互层（手机 App / 智能音箱）
-↓
-Agent 核心调度层（MiMo-V2.5-Pro）
-↓ ↓ ↓
-文本理解 图像分析 语音合成
-(MiMo-V2-Pro) (MiMo-V2-Omni) (MiMo-V2-TTS)
-↓
-米家 IoT 设备层（摄像头 / 台灯 / 音箱 / 传感器...）
-
 
 - **后端**：Python + FastAPI  
 - **Agent 框架**：OpenClaw Agent Framework  
